@@ -1,0 +1,80 @@
+.title {
+    color: #13DAEC;
+    font-size: 60px;
+}
+
+.title-slide{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title-slide .title-1{
+    font-size: 100px;
+    color: #13DAEC;  
+}
+
+.title-slide .author {
+    margin-top: 150px;
+}
+
+.consist {
+    display: flex;
+    align-items: flex-end;
+}
+
+.consist .right-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.consist .or {
+    font-size: 20px;
+    align-self: center;
+}
+
+.consist-example {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.template {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.justify-items {
+    display: flex;
+}
+
+.justify-items .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.align-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.below {
+    margin-top: 40px;
+}
+
+.minmax {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.repeat {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

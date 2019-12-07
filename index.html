@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>css grid</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/mystyle.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<div class="title-slide">
+						<div class="title-1">CSS GRID LAYOUT</div>
+						<div class="author">by Vladimir Drachuk</div>
+					</div>
+				</section>
+				<section>
+					<div class="support">
+						<div class="title">Grid Layout Support</div>
+						<img src="./assets/2.jpg" alt="support">
+					</div>
+				</section>
+				<section>
+					<div class="consist">
+						<div>
+							<img src="./assets/3.1.png" alt="1">
+						</div>
+						<div class="right-col">
+							<img src="./assets/3.2.png" alt="2">
+							<img src="./assets/3.3.png" alt="3">
+							<div class="or">or</div>
+							<img src="./assets/3.4.png" alt="4">
+						</div>
+					</div>
+				</section>
+				<section>
+						<img src="./assets/4.1.png" alt="1">
+						<img src="./assets/4.2.png" alt="2">
+				</section>
+				<section>
+					<div class="consist-example">
+						<img src="./assets/5.1.png" alt="1">
+						<img src="./assets/5.2.png" alt="2">
+					</div>
+					<div class="consist-example">
+						<img src="./assets/5.3.png" alt="3">
+						<img src="./assets/5.4.png" alt="4">
+					</div>
+					<div class="consist-example">
+						<img src="./assets/5.5.png" alt="5">
+						<img src="./assets/5.6.png" alt="6">
+					</div>
+				</section>
+				<section>
+					<div class="template">
+						<div class="title">The grid-template-columns Property</div>
+						<img src="./assets/6.1.png" alt="1">
+						<img src="./assets/6.2.png" alt="2">
+						<img src="./assets/6.3.png" alt="3">
+						<img src="./assets/6.4.png" alt="4">
+					</div>
+				</section>
+				<section>
+					<div class="template">
+						<div class="title">The grid-template-rows Property</div>
+						<img src="./assets/7.1.png" alt="1">
+						<img src="./assets/7.2.png" alt="2">
+					</div>
+				</section>
+				<section>
+					<div class="title">The justify-items Property</div>
+					<div class="justify-items">
+						<div>
+							<img src="./assets/8.1.png" alt="1">
+							<img src="./assets/8.2.png" alt="2">
+						</div>
+						<div>
+							<img src="./assets/8.3.png" alt="3">
+							<img src="./assets/8.4.png" alt="4">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="title">The align-items Property</div>
+					<img src="./assets/9.1.png" alt="1">
+					<div class="justify-items">
+						<div>
+							<img src="./assets/9.2.png" alt="2">
+							<img src="./assets/9.3.png" alt="3">
+						</div>
+						<div>
+							<img src="./assets/9.4.png" alt="4">
+							<img src="./assets/9.5.png" alt="5">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="title">The justify-content Property</div>
+					<img src="./assets/10.1.png" alt="1">
+					<div class="justify-items">
+						<div class="left-column">
+							<img src="./assets/10.2.png" alt="2">
+							<img src="./assets/10.3.png" alt="3">
+						</div>
+						<div>
+							<img src="./assets/10.4.png" alt="4">
+							<img src="./assets/10.5.png" alt="5">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="title">The align-content Property</div>
+					<div class="align-content">
+						<img src="./assets/11.1.png" alt="1">
+						<img src="./assets/11.2.png" alt="2">
+					</div>
+					<div class="align-content">
+						<img src="./assets/11.3.png" alt="3">
+						<img src="./assets/11.4.png" alt="4">
+					</div>
+				</section>
+				<section>
+					<div class="align-content">
+						<img src="./assets/12.1.png" alt="1">
+						<img src="./assets/12.2.png" alt="2">
+					</div>
+					<div class="align-content">
+						<img src="./assets/12.3.png" alt="3">
+						<img src="./assets/12.4.png" alt="4">
+					</div>
+					<div class="align-content">
+						<img src="./assets/12.5.png" alt="5">
+						<img src="./assets/12.6.png" alt="6">
+					</div>
+				</section>
+				<section>
+					<div class="title">The justify-self Property</div>
+					<div class="title">The align-self Property</div>
+					<div class="justify-items">
+						<div>
+							<img src="./assets/13.1.png" alt="1">
+							<img src="./assets/13.2.png" alt="2">
+						</div>
+						<div>
+							<img src="./assets/13.3.png" alt="3">
+							<img src="./assets/13.4.png" alt="4">
+						</div>
+					</div>
+				</section>
+				<section>
+					<img src="./assets/14.1.png" alt="1">
+				</section>
+				<section>
+					<div class="align-content">
+						<img src="./assets/15.1.png" alt="1">
+						<img src="./assets/15.2.png" alt="2">
+					</div>
+					<div class="align-content below">
+						<img src="./assets/15.3.png" alt="3">
+						<img src="./assets/15.4.png" alt="4">
+					</div>
+				</section>
+				<section>
+					<div class="title">The grid-column Property</div>
+					<div class="align-content  below">
+						<img src="./assets/16.1.png" alt="1">
+						<img src="./assets/16.2.png" alt="2">
+					</div>
+					<div class="align-content below">
+						<img src="./assets/16.3.png" alt="3">
+						<img src="./assets/16.4.png" alt="4">
+					</div>
+				</section>
+				<section>
+					<div class="title">The grid-row Property</div>
+					<div class="align-content  below">
+						<img src="./assets/17.1.png" alt="1">
+						<img src="./assets/17.2.png" alt="2">
+					</div>
+					<div class="align-content below">
+						<img src="./assets/17.3.png" alt="3">
+						<img src="./assets/17.4.png" alt="4">
+					</div>
+				</section>
+				<section>
+					<div class="title">The grid-area Property</div>
+					<img src="./assets/18.1.png" alt="1">
+					<div class="align-content">
+						<img src="./assets/18.2.png" alt="2">
+						<img src="./assets/18.3.png" alt="3">
+					</div>
+					<div class="align-content">
+						<img src="./assets/18.4.png" alt="4">
+						<img src="./assets/18.5.png" alt="5">
+					</div>
+				</section>
+				<section>
+					<div class="title">The grid-row Property</div>
+					<div class="align-content">
+						<img src="./assets/19.1.png" alt="1">
+						<img src="./assets/19.2.png" alt="2">
+					</div>
+					<div class="align-content">
+						<img src="./assets/19.3.png" alt="3">
+						<img src="./assets/19.4.png" alt="4">
+					</div>
+					<div class="align-content">
+						<img src="./assets/19.5.png" alt="5">
+						<img src="./assets/19.6.png" alt="6">
+					</div>
+				</section>
+				<section>
+						<div class="title">The Order of the Items</div>
+						<div class="below"><img src="./assets/20.1.png" alt="1"></div>
+						<div class="below"><img src="./assets/20.2.png" alt="2"></div>
+				</section>
+				<section>
+					<div class="minmax">
+						<div class="title">The minmax() function</div>
+						<div class="below"><img src="./assets/21.1.png" alt="1"></div>
+						<div class="below"><img src="./assets/21.2.png" alt="2"></div>
+						<div class="below"><img src="./assets/21.3.png" alt="3"></div>
+					</div>
+				</section>
+				<section>
+					<div class="title">The Fr Unit</div>
+					<div class="justify-items">
+						<div class="below">
+							<img src="./assets/22.1.png" alt="1">
+							<img src="./assets/22.2.png" alt="2">
+						</div>
+						<div class="below">
+							<img src="./assets/22.3.png" alt="3">
+							<img src="./assets/22.4.png" alt="4">
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="title">The repeat() function</div>
+					<div class="repeat">
+						<img src="./assets/23.1.png" alt="1">
+						<div>=</div>
+						<img src="./assets/23.2.png" alt="2">
+					</div>
+					<div class="template">
+						<img src="./assets/23.3.png" alt="3">
+						<img src="./assets/23.4.png" alt="4">
+						<img src="./assets/23.5.png" alt="5">
+					</div>
+				</section>
+				<section>
+					<div class="title">Thank you for your attention</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
